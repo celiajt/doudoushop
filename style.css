@@ -56,3 +56,73 @@
 .header:hover {
     text-decoration: underline;
 }
+
+#welcomemessage {
+    font-size: 40px;
+    color: cornflowerblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondcartes {
+    display: flex;
+    height: 400px;
+    
+}
+
+.cart{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: azure;
+    height: 100%;
+     
+    
+}
+.dog {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.text {
+    height: 30vh;
+    padding: 2px 16px;
+    color: cadetblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Geneva, Tahoma, sans-serif
+}
+
+#dog1 {
+    background-image: url("./assets/Dog1.webp");
+}
+
+#dog2 {
+    background-image: url("./assets/Dog2.jpg");
+}
+
+.dogname {
+    margin-bottom: 10px;
+}
+
+.gras {
+    font-weight: bold;
+    text-decoration: underline;
+}
